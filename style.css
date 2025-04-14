@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0) ;
+}
+.banner {
+    height: 80vh;
+    width: 100%;
+    background-image: url(assets/images/bg.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1350px, 100vw);
+}
+
+.banner img {
+    width: 90px;
+}
+
+.dummyBox {
+    
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    opacity: 0.6;
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+.navBar {
+    
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    height: 60px;
+}
+
+.inBoxText {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 60px);
+    /*We are decreasing navbar height to allign the box on with banner */
+    width:100%;
+    position: relative;
+    /* top: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.inBoxText> :first-child {
+    /*Only Immediate given child*/
+    font-weight: bolder;
+    font-size: 38px;
+    text-align: center;
+}
+
+.inBoxText> :nth-child(2) {
+    /*Only Immediate given child*/
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.inBoxText> :nth-child(3) {
+    /*Only Immediate given child*/
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.button {
+    padding: 4px 12px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+}
+
+.lang {
+    background-color: rgba(236, 236, 230, 0.231);
+    color: white;
+    border: 1px solid white;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+}
+
+.input {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 12px 5px 6px;
+    border: 2px solid rgba(139, 130, 130, 0.441);
+    font-weight: bolder;
+    border-radius: 2px;
+    color: white;
+}
+
+.input::placeholder {
+    color: rgb(217, 211, 211);
+}
+
+.separator {
+    height: 3px;
+    background-color: grey;
+    /* position: relative; */
+}
+
+.sectionContainer
+{
+    /* overflow: hidden; */
+    color: white;   
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secImage
+{
+    position: relative;
+}
+.secImage img
+{
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+
+.secImage video
+{
+    position: absolute;
+    width: 22.5vw;
+    top: 57px;
+    right: 48px;
+}
+.platform
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.sectionContainer div> :first-child
+{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sectionContainer div> :nth-child(2)
+{
+    font-size: 20px;
+}
