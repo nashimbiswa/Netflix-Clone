@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgb(0, 0, 0) ;
+    background-color: #0f0f0f;
 }
 .banner {
     height: 80vh;
@@ -177,4 +177,34 @@ nav {
 .sectionContainer div> :nth-child(2)
 {
     font-size: 20px;
+}
+
+.faq
+{
+    color: white;
+    padding: 20px;
+}
+.faq h2
+{
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.box{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#272727;
+    max-width: 80%;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 17px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.box:hover
+{
+    background-color: #808080;
 }
