@@ -17,11 +17,11 @@ body{
     position: relative;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: max(1350px, 100vw);
+    background-size: max(1350px,100%);
 }
 
 .banner img {
-    width: 90px;
+    width: 100px;
 }
 
 .dummyBox {
@@ -139,11 +139,12 @@ nav {
 {
     /* overflow: hidden; */
     color: white;   
-    max-width: 70vw;
+    max-width: 70%;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* flex-wrap: wrap; */
 }
 .secImage
 {
@@ -152,14 +153,15 @@ nav {
 .secImage img
 {
     position: relative;
-    width: 30vw;
+    /* width: 30vw; */
+    width: 385px;
     z-index: 10;
 }
 
 .secImage video
 {
     position: absolute;
-    width: 22.5vw;
+    width: 288.75px;
     top: 57px;
     right: 48px;
 }
@@ -187,24 +189,129 @@ nav {
 .faq h2
 {
     text-align: center;
-    font-size: xx-large;
+    font-size: 40px;
     padding: 10px;
+    font-weight: bolder;
 }
 
 .box{
+    transition: all 1s ease-out;
     margin: 10px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color:#272727;
     max-width: 80%;
-    padding: 20px;
+    padding: 24px;
     cursor: pointer;
     border-radius: 17px;
     font-size: 18px;
     font-weight: 700;
+    font-style: normal;
 }
 .box:hover
 {
     background-color: #808080;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    padding: 20px;
+    margin: auto;
+    
+}
+.foot-menu
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.foot-menu a
+{
+    color: #FFFFFF;
+}
+.footer-contact
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    /* max-width: 70%; */
+}
+.contact
+{
+    padding: 10px;
+}
+.footer-contact p
+{
+    font-size: 20px;
+}
+.contact input
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.contact button
+{
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.foot-menu button
+{
+    margin: 30px 0px;
+}
+h4
+{
+    color: white;
+    font-style: normal;
+}
+
+footer>:first-child
+{
+    color: white;
+    align-self: center;
+    padding: 0 100px;
+    margin-top: 50px;
+
+}
+footer a
+{
+    color: white;
+}
+
+footer
+{
+    /* max-width: 100%; */
+    margin: auto;
+    color: white;
+}
+
+.ques
+{
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 73%;
+    margin: 20px auto;
+    
+}
+.ques a 
+{
+    color: white;
+}
+.question
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 73%;
+    margin: 20px auto;
+}
+.question button
+{
+    width: 80px;
+    margin-bottom: 10px;
 }

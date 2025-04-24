@@ -1,0 +1,60 @@
+@media screen and (max-width:950px) {
+
+    .inBoxText> :first-child {
+        font-size: 21px;
+    }
+
+    .inBoxText> :nth-child(2) {
+        font-size: 18px;
+
+    }
+
+    .inBoxText> :nth-child(3) {
+        font-size: 18px;
+
+    }
+
+    .sectionContainer {
+        max-width: 90%;
+
+    }
+
+    .sectionContainer div> :first-child {
+        font-size: 35px;
+        font-weight: bolder;
+        margin-top: 5px;
+    }
+
+    .sectionContainer div> :nth-child(2) {
+        font-size: 14px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+
+    .sectionContainer {
+        /* overflow: hidden; */
+        color: white;
+        max-width: 70%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+    .footer-contact button {
+       margin-top:10px;
+    }
+    .footer
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: left;
+    margin: auto;
+
+}
+
+}
