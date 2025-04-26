@@ -45,16 +45,22 @@
     .footer-contact {
         text-align: center;
     }
-    .footer-contact button {
-       margin-top:10px;
-    }
-    .footer
-{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: left;
-    margin: auto;
 
-}
+    .footer-contact button {
+        margin-top: 10px;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: left;
+        margin: auto;
+
+    }
+
+    footer>:first-child {
+        padding: 0 50px;
+
+    }
 
 }
