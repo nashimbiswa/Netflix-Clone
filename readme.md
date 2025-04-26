@@ -1,5 +1,3 @@
-# Screenshots of the page
-
 ## Main Content
 ___
 
