@@ -1,6 +1,8 @@
 # Screenshots of the page
 
 ## Main Content
+___
+
 ![main content image 1](/ScreenShots/main%20content%201.png)
 
 ![main content image 2](/ScreenShots/main%20content%202.png)
